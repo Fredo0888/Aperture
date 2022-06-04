@@ -143,7 +143,7 @@ header nav ul li:nth-child(2):after{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 12px;
     color: #FFFFFF;
     margin-left: 16px;
@@ -366,5 +366,7 @@ header nav ul li:nth-child(2):after{
     border-radius: 50%;
     margin-right: 10px;
 }
-
+.main_banner3{
+    
+}
 
