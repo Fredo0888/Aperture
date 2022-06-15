@@ -454,3 +454,108 @@ header nav ul li:nth-child(2):after{
     border-radius: 50%;
     margin-right: 10px;
 }
+footer{
+    background-color: black;
+    padding-top: 92px;
+    padding-bottom: 104px;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+}
+footer .left_item a{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+footer .left_item p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer .right_item{
+    display: flex;
+}
+footer .right_item ul:first-of-type{
+    margin-right: 55px;
+}
+footer .right_item li:first-of-type{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    list-style: none;
+}
+footer .right_item li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .right_item li{
+    margin-bottom: 10px;
+}
+footer .right_item ul{
+    margin-bottom: 36px;
+}
+footer .flex_container{
+    border-bottom: solid 2px #FFFFFF;
+}
+.down_item{
+    padding-top: 36px;
+}
+.down_item h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.down_item p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    margin-bottom: 36px;
+}
+.form_flex_item form{
+    display: inline-flex;
+    justify-content: space-between;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 40px 0;
+    width: 458px;
+    text-align: center;
+}
+.form_flex_item input{
+    border: none;
+    background: transparent;
+}
+.form_flex_item button{
+    display: inline-block;
+    content: '';
+    width: 63px;
+    height: 30px;
+    background-color: black;
+    border-radius: 11px;
+    padding: 10px 6px 10px 0;
+
+
+}
