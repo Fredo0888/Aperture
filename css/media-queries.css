@@ -1,5 +1,11 @@
 
 @media only screen and (max-width: 768px) {
+    header{
+        background-color: red;
+    }
+    .container{
+        padding: 0 30px;
+    }
 
 }
 @media only screen and (max-width: 414px) {
