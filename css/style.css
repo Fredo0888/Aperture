@@ -71,15 +71,7 @@ header nav li:last-of-type a{
     line-height: 20px;
     color: black;
 }
-header nav ul li:nth-child(2):after{
-    content: ">";
-    display: inline-block;
-    font-size: 20px;
-    color: white;
-    transform: rotate(90deg);
-    margin-left: 10px;
-    margin-top: 3px;
-}
+
 .main_banner{
     background-image: url('../images/IMAGE.png');
     background-size: cover;
@@ -534,6 +526,7 @@ footer .flex_container{
     margin-bottom: 36px;
 }
 .form_flex_item form{
+    max-width: 458px;
     display: inline-flex;
     justify-content: space-between;
     background: #F9FAFB;
@@ -558,4 +551,28 @@ footer .flex_container{
     padding: 10px 6px 10px 0;
 
 
+}
+.main_banner h1{
+    display: inline-block;
+    position: relative;
+    animation: Apertures 2s infinite;
+}
+@keyframes Apertures {
+    0% {
+        top: 0;
+    }
+    30% {
+        top: 30px;
+        transform: rotate(90deg);
+        background-color: purple;
+    }
+    50%{
+        bottom: 90px;
+        transform: scale( 1,2);
+        background-color: mediumorchid;
+    }
+    100%{
+        transform: rotate(0);
+
+    }
 }
