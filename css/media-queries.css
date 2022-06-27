@@ -38,4 +38,45 @@
 .form_flex_item form{
     max-width: 208px;
 }
+.nav-but-wrap{
+    display: inline-block;
+
+}
+.nav{
+    position: fixed;
+}
+.nav__content{
+    position: fixed;
+    visibility: hidden;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+    .nav__list-item {
+        opacity: 0;
+        margin: 0;
+        font-size: 4vh;
+        padding-bottom: 5px;
+    }
+    .cd-header{
+        position: fixed;
+    }
+    .nav__list {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        z-index: 2;
+        top: -150px;
+        display: inline-block;
+    }
+    .nav__list-item:last-of-type{
+        padding-right: 0px;
+    }
+    .logo-wrap {
+        position: absolute;
+        display:block;
+        left:0;
+        top: 10px;
+        cursor: pointer;
+    }
 }
